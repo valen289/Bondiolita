@@ -1,0 +1,116 @@
+{
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [],
+    "ignoreValues": [
+      {
+        "rule": "cramped-padding",
+        "value": "*",
+        "files": [
+          ".impeccable/mocks/decision/assigned.html"
+        ],
+        "createdAt": "2026-11-08T01:18:48.057Z",
+        "reason": "Claude: boceto descartable de la ronda de decisión, no se publica; la página real se revisa aparte"
+      },
+      {
+        "rule": "low-contrast",
+        "value": "*",
+        "files": [
+          ".impeccable/mocks/decision/assigned.html"
+        ],
+        "createdAt": "2026-11-08T01:18:48.257Z",
+        "reason": "Claude: boceto descartable de la ronda de decisión, no se publica; la página real se revisa aparte"
+      },
+      {
+        "rule": "cramped-padding",
+        "value": "*",
+        "files": [
+          ".impeccable/mocks/decision/model-pick.html"
+        ],
+        "createdAt": "2026-11-08T01:18:48.424Z",
+        "reason": "Claude: boceto descartable de la ronda de decisión, no se publica; la página real se revisa aparte"
+      },
+      {
+        "rule": "low-contrast",
+        "value": "*",
+        "files": [
+          ".impeccable/mocks/decision/model-pick.html"
+        ],
+        "createdAt": "2026-11-08T01:18:48.607Z",
+        "reason": "Claude: boceto descartable de la ronda de decisión, no se publica; la página real se revisa aparte"
+      },
+      {
+        "rule": "cramped-padding",
+        "value": "*",
+        "files": [
+          ".impeccable/mocks/decision/challenger-boleto.html"
+        ],
+        "createdAt": "2026-11-08T01:18:48.797Z",
+        "reason": "Claude: boceto descartable de la ronda de decisión, no se publica; la página real se revisa aparte"
+      },
+      {
+        "rule": "low-contrast",
+        "value": "*",
+        "files": [
+          ".impeccable/mocks/decision/challenger-boleto.html"
+        ],
+        "createdAt": "2026-11-08T01:18:48.993Z",
+        "reason": "Claude: boceto descartable de la ronda de decisión, no se publica; la página real se revisa aparte"
+      },
+      {
+        "rule": "cramped-padding",
+        "value": "*",
+        "files": [
+          ".impeccable/mocks/decision/canon.html"
+        ],
+        "createdAt": "2026-11-08T01:18:49.164Z",
+        "reason": "Claude: boceto descartable de la ronda de decisión, no se publica; la página real se revisa aparte"
+      },
+      {
+        "rule": "low-contrast",
+        "value": "*",
+        "files": [
+          ".impeccable/mocks/decision/canon.html"
+        ],
+        "createdAt": "2026-11-08T01:18:49.340Z",
+        "reason": "Claude: boceto descartable de la ronda de decisión, no se publica; la página real se revisa aparte"
+      },
+      {
+        "rule": "design-system-font",
+        "value": "*",
+        "files": [
+          ".impeccable/mocks/decision/assigned.html"
+        ],
+        "createdAt": "2026-11-08T01:42:03.195Z",
+        "reason": "Claude: boceto descartable de la ronda de decisión, anterior a DESIGN.md y fuera del repo (.gitignore)"
+      },
+      {
+        "rule": "design-system-font",
+        "value": "*",
+        "files": [
+          ".impeccable/mocks/decision/model-pick.html"
+        ],
+        "createdAt": "2026-11-08T01:42:03.360Z",
+        "reason": "Claude: boceto descartable de la ronda de decisión, anterior a DESIGN.md y fuera del repo (.gitignore)"
+      },
+      {
+        "rule": "design-system-font",
+        "value": "*",
+        "files": [
+          ".impeccable/mocks/decision/challenger-boleto.html"
+        ],
+        "createdAt": "2026-11-08T01:42:03.546Z",
+        "reason": "Claude: boceto descartable de la ronda de decisión, anterior a DESIGN.md y fuera del repo (.gitignore)"
+      },
+      {
+        "rule": "design-system-font",
+        "value": "*",
+        "files": [
+          ".impeccable/mocks/decision/canon.html"
+        ],
+        "createdAt": "2026-11-08T01:42:03.751Z",
+        "reason": "Claude: boceto descartable de la ronda de decisión, anterior a DESIGN.md y fuera del repo (.gitignore)"
+      }
+    ]
+  }
+}

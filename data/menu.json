@@ -1,0 +1,64 @@
+{
+  "categorias": [
+    {
+      "id": "bondiolas",
+      "nombre": "Bondiolas",
+      "productos": [
+        { "id": "bondiola-desmenuzada", "nombre": "Bondiola desmenuzada", "descripcion": "", "precio": 230, "foto": null, "disponible": true },
+        { "id": "bondiola-pizza", "nombre": "Bondiola a la pizza al pan", "descripcion": "", "precio": 200, "foto": null, "disponible": true },
+        { "id": "bondiola-comun", "nombre": "Bondiola común al pan", "descripcion": "", "precio": 180, "foto": null, "disponible": true }
+      ]
+    },
+    {
+      "id": "hamburguesas",
+      "nombre": "Hamburguesas",
+      "productos": [
+        { "id": "hamburguesa-completa", "nombre": "Hamburguesa completa", "descripcion": "1 carne", "precio": 170, "foto": null, "disponible": true },
+        { "id": "hamburguesa-doble", "nombre": "Hamburguesa completa doble", "descripcion": "Doble carne", "precio": 240, "foto": null, "disponible": true }
+      ]
+    },
+    {
+      "id": "chorizos-pollo",
+      "nombre": "Chorizos y pollo",
+      "productos": [
+        { "id": "chorizo-completo", "nombre": "Chorizo al pan completo", "descripcion": "", "precio": 200, "foto": null, "disponible": true },
+        { "id": "chorizo-pizza", "nombre": "Chorizo a la pizza", "descripcion": "", "precio": 210, "foto": null, "disponible": true },
+        { "id": "sandwich-pollo", "nombre": "Sándwich de pollo", "descripcion": "", "precio": 230, "foto": null, "disponible": true }
+      ]
+    },
+    {
+      "id": "dulces",
+      "nombre": "Postres y alfajores",
+      "productos": [
+        {
+          "id": "postre",
+          "nombre": "Postre",
+          "descripcion": "",
+          "precio": 100,
+          "opciones": [
+            { "id": "100", "nombre": "$U 100", "precio": 100 },
+            { "id": "110", "nombre": "$U 110", "precio": 110 }
+          ],
+          "pendiente": "Confirmar con el local qué postre corresponde a cada precio",
+          "foto": null,
+          "disponible": true
+        },
+        { "id": "alfajor-maicena", "nombre": "Alfajor de maicena", "descripcion": "", "precio": 60, "foto": null, "disponible": true },
+        { "id": "alfajor-chocolate", "nombre": "Alfajor de chocolate", "descripcion": "", "precio": 70, "foto": null, "disponible": true }
+      ]
+    },
+    {
+      "id": "bebidas",
+      "nombre": "Bebidas",
+      "productos": [
+        { "id": "refresco-600", "nombre": "Refresco", "descripcion": "600 cc", "precio": 100, "foto": null, "disponible": true },
+        { "id": "refresco-1500", "nombre": "Refresco", "descripcion": "1,5 L", "precio": 200, "foto": null, "disponible": true },
+        { "id": "agua-1750", "nombre": "Agua", "descripcion": "1,75 L", "precio": 80, "foto": null, "disponible": true },
+        { "id": "agua-625", "nombre": "Agua", "descripcion": "625 ml", "precio": 60, "foto": null, "disponible": true },
+        { "id": "cerveza-nortena", "nombre": "Cerveza Norteña", "descripcion": "Lata", "precio": 90, "foto": null, "disponible": true },
+        { "id": "cerveza-pilsen", "nombre": "Cerveza Pilsen O.", "descripcion": "Lata", "precio": 100, "pendiente": "En el cartel dice «Pilsen O.»: confirmar el nombre completo", "foto": null, "disponible": true },
+        { "id": "cerveza-patricia", "nombre": "Cerveza Patricia", "descripcion": "Lata", "precio": 120, "foto": null, "disponible": true }
+      ]
+    }
+  ]
+}

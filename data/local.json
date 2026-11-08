@@ -1,0 +1,28 @@
+{
+  "nombre": "La Bondiolita",
+  "rubro": "Parrillada",
+  "ciudad": "Paysandú",
+  "direccion": "Ruta 90, pasando Puente Seco",
+  "referencia": "Cruce con Ruta 3",
+  "mapa": {
+    "busqueda": "La Bondiolita, Ruta 90, Paysandú, Uruguay",
+    "enlace": null
+  },
+  "horarios": {
+    "zona": "America/Montevideo",
+    "turnos": [
+      { "dias": [1, 2, 3, 4, 5, 6], "desde": "11:00", "hasta": "15:00" },
+      { "dias": [4, 5, 6], "desde": "20:00", "hasta": "00:00" }
+    ]
+  },
+  "whatsapp": null,
+  "telefono": null,
+  "instagram": null,
+  "facebook": null,
+  "envio": {
+    "habilitado": false,
+    "zona": null,
+    "costo": null
+  },
+  "pagos": ["Efectivo", "Transferencia"]
+}

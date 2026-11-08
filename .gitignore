@@ -19,3 +19,10 @@ fotos-originales/
 Thumbs.db
 desktop.ini
 *.log
+
+# Herramientas de diseño y pruebas (locales)
+.playwright-mcp/
+.impeccable/review/
+.impeccable/mocks/
+.impeccable/decision-payload.json
+.impeccable/config.local.json

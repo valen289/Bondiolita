@@ -1,0 +1,160 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-07T23:00:00-03:00",
+  "title": "Design System: La Bondiolita",
+  "extensions": {
+    "colorMeta": {
+      "tablero": { "role": "neutral", "displayName": "Negro de tablero", "canonical": "#111110", "tonalRamp": ["#0a0a09", "#111110", "#1d1d1b", "#363631", "#5c5b55", "#9b9a93", "#dcdbd4", "#fafaf7"] },
+      "tablero-alto": { "role": "neutral", "displayName": "Tablero alto", "canonical": "#1d1d1b", "tonalRamp": ["#0a0a09", "#111110", "#1d1d1b", "#2b2b28", "#363631", "#5c5b55", "#9b9a93", "#dcdbd4"] },
+      "tablero-regla": { "role": "neutral", "displayName": "Regla de tablero", "canonical": "#363631", "tonalRamp": ["#111110", "#1d1d1b", "#2b2b28", "#363631", "#4a4a45", "#6b6a64", "#9b9a93", "#dcdbd4"] },
+      "tablero-texto": { "role": "neutral", "displayName": "Letra de tablero", "canonical": "#fafaf7", "tonalRamp": ["#363631", "#5c5b55", "#6b6a64", "#9b9a93", "#a6a59e", "#dcdbd4", "#f3f2ed", "#fafaf7"] },
+      "tablero-texto-2": { "role": "neutral", "displayName": "Letra de tablero secundaria", "canonical": "#a6a59e", "tonalRamp": ["#363631", "#4a4a45", "#5c5b55", "#6b6a64", "#8a8983", "#a6a59e", "#c4c3bc", "#e6e5df"] },
+      "ambar": { "role": "primary", "displayName": "Ámbar de lámpara", "canonical": "#f2a007", "tonalRamp": ["#3d2700", "#6b4500", "#9a6400", "#c98303", "#f2a007", "#f8bc4a", "#fcd68a", "#fff0cf"] },
+      "brasa-claro": { "role": "secondary", "displayName": "Brasa clara (sobre tablero)", "canonical": "#ff6a45", "tonalRamp": ["#3d1006", "#6b1e0d", "#9a2c14", "#b3361a", "#e0502c", "#ff6a45", "#ff9c82", "#ffd6cb"] },
+      "brasa": { "role": "secondary", "displayName": "Brasa oscura (sobre tiza)", "canonical": "#b3361a", "tonalRamp": ["#3d1006", "#6b1e0d", "#8a2812", "#b3361a", "#d24a28", "#ff6a45", "#ff9c82", "#ffd6cb"] },
+      "fondo": { "role": "neutral", "displayName": "Tiza", "canonical": "#fafaf7", "tonalRamp": ["#363631", "#5c5b55", "#9b9a93", "#c4c3bc", "#dcdbd4", "#ecebe5", "#f3f2ed", "#fafaf7"] },
+      "texto": { "role": "neutral", "displayName": "Tinta", "canonical": "#111110", "tonalRamp": ["#0a0a09", "#111110", "#1d1d1b", "#363631", "#5c5b55", "#9b9a93", "#dcdbd4", "#fafaf7"] },
+      "texto-2": { "role": "neutral", "displayName": "Tinta secundaria", "canonical": "#5c5b55", "tonalRamp": ["#1d1d1b", "#363631", "#4a4a45", "#5c5b55", "#6b6a64", "#8a8983", "#a6a59e", "#dcdbd4"] },
+      "regla": { "role": "neutral", "displayName": "Regla", "canonical": "#dcdbd4", "tonalRamp": ["#5c5b55", "#6b6a64", "#8a8983", "#9b9a93", "#c4c3bc", "#dcdbd4", "#ecebe5", "#fafaf7"] },
+      "regla-fuerte": { "role": "neutral", "displayName": "Regla fuerte", "canonical": "#9b9a93", "tonalRamp": ["#363631", "#4a4a45", "#5c5b55", "#6b6a64", "#8a8983", "#9b9a93", "#c4c3bc", "#dcdbd4"] },
+      "relleno": { "role": "neutral", "displayName": "Relleno", "canonical": "#111110", "tonalRamp": ["#0a0a09", "#111110", "#1d1d1b", "#2b2b28", "#363631", "#5c5b55", "#9b9a93", "#dcdbd4"] },
+      "fondo-oscuro": { "role": "neutral", "displayName": "Grafito (cuerpo, modo oscuro)", "canonical": "#171716", "tonalRamp": ["#0a0a09", "#111110", "#171716", "#1d1d1b", "#2b2b28", "#363631", "#5c5b55", "#9b9a93"] },
+      "texto-oscuro": { "role": "neutral", "displayName": "Tinta clara (modo oscuro)", "canonical": "#f3f2ed", "tonalRamp": ["#363631", "#5c5b55", "#9b9a93", "#a6a59e", "#c4c3bc", "#dcdbd4", "#f3f2ed", "#fafaf7"] },
+      "regla-oscuro": { "role": "neutral", "displayName": "Regla (modo oscuro)", "canonical": "#33332f", "tonalRamp": ["#111110", "#1d1d1b", "#2b2b28", "#33332f", "#4a4a45", "#6b6a64", "#9b9a93", "#dcdbd4"] },
+      "regla-fuerte-oscuro": { "role": "neutral", "displayName": "Regla fuerte (modo oscuro)", "canonical": "#6b6a64", "tonalRamp": ["#1d1d1b", "#2b2b28", "#4a4a45", "#5c5b55", "#6b6a64", "#8a8983", "#a6a59e", "#dcdbd4"] },
+      "relleno-oscuro": { "role": "neutral", "displayName": "Relleno (modo oscuro)", "canonical": "#2b2b28", "tonalRamp": ["#111110", "#1d1d1b", "#2b2b28", "#363631", "#4a4a45", "#6b6a64", "#9b9a93", "#dcdbd4"] }
+    },
+    "typographyMeta": {
+      "display": { "displayName": "Display", "purpose": "Solo el nombre del local en la cabecera; 3.5rem desde 720px." },
+      "headline": { "displayName": "Headline", "purpose": "Encabezados de categoría y de El local (2.75rem desde 720px); misma voz para estado, totales, cantidad del control de pasos y días." },
+      "title": { "displayName": "Title", "purpose": "Pestañas de la barra de categorías." },
+      "body": { "displayName": "Body", "purpose": "Texto corrido con números tabulares." },
+      "body-strong": { "displayName": "Body fuerte", "purpose": "Nombres de producto, botones y opciones." },
+      "label": { "displayName": "Rótulo", "purpose": "Mayúsculas espaciadas que nombran un dato, una columna o un campo; nunca encima de un titular." }
+    },
+    "shadows": [
+      { "name": "barra-flotante", "value": "0 10px 30px rgb(0 0 0 / 0.28), 0 2px 6px rgb(0 0 0 / 0.2)", "purpose": "Barra del pedido en modo claro." },
+      { "name": "barra-flotante-oscuro", "value": "0 0 0 1px #363631, 0 10px 30px rgb(0 0 0 / 0.6)", "purpose": "Barra del pedido en modo oscuro." },
+      { "name": "hoja", "value": "0 0 0 1px #363631, 0 -12px 40px rgb(0 0 0 / 0.35)", "purpose": "Hoja del pedido sobre fondo rgb(17 17 16 / 0.72)." }
+    ],
+    "motion": [
+      { "name": "salida", "value": "cubic-bezier(0.16, 1, 0.3, 1)", "purpose": "Curva de todas las entradas: barra, hoja y pliegue." },
+      { "name": "plegar", "value": "0.52s salida; rotateX(-90deg) a 12deg a 0deg con perspective(12em); escalonado 45ms por casillero", "purpose": "Solo los caracteres que cambian en un valor de tablero; desactivado con prefers-reduced-motion." },
+      { "name": "barra-entrada", "value": "transform 0.4s salida", "purpose": "La barra del pedido sube desde abajo." },
+      { "name": "subir", "value": "0.42s salida; translateY(40%) y opacidad 0.4 a reposo", "purpose": "Apertura de la hoja del pedido." },
+      { "name": "estado-control", "value": "0.15s", "purpose": "Cambios de fondo y borde en botones, campos y opciones; pestañas 0.2s." }
+    ],
+    "breakpoints": [
+      { "name": "escritorio", "value": "720px" }
+    ]
+  },
+  "components": [
+    {
+      "name": "Agregar",
+      "kind": "button",
+      "refersTo": "button-agregar",
+      "description": "Control de un producto disponible: borde de 2px en la columna de control.",
+      "html": "<button class=\"ds-agregar\" type=\"button\">Agregar</button>",
+      "css": ".ds-agregar { width: 6.75rem; height: 48px; background: none; border: 2px solid var(--texto, #111110); border-radius: 6px; color: var(--texto, #111110); font: 600 1rem system-ui, sans-serif; cursor: pointer; transition: background-color 0.15s, color 0.15s, transform 0.1s; } .ds-agregar:hover { background: var(--texto, #111110); color: var(--fondo, #fafaf7); } .ds-agregar:active { transform: scale(0.97); } .ds-agregar:focus-visible { outline: 3px solid var(--foco, #111110); outline-offset: 3px; }"
+    },
+    {
+      "name": "Control de pasos",
+      "kind": "custom",
+      "refersTo": "stepper",
+      "description": "Producto en el pedido: relleno con la cantidad en Bebas Neue ámbar.",
+      "html": "<div class=\"ds-paso\" role=\"group\"><button type=\"button\" aria-label=\"Quitar uno\"><svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.4\" stroke-linecap=\"round\"><path d=\"M5 12h14\"/></svg></button><output>2</output><button type=\"button\" aria-label=\"Sumar uno\"><svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.4\" stroke-linecap=\"round\"><path d=\"M12 5v14M5 12h14\"/></svg></button></div>",
+      "css": ".ds-paso { width: 6.75rem; height: 48px; display: grid; grid-template-columns: 40px 1fr 40px; background: var(--relleno, #111110); color: var(--relleno-texto, #fafaf7); border-radius: 6px; } .ds-paso button { display: grid; place-items: center; background: none; border: 0; color: inherit; border-radius: 6px; cursor: pointer; } .ds-paso button:hover { background: rgb(255 255 255 / 0.1); } .ds-paso button:active { transform: scale(0.92); } .ds-paso button:focus-visible { outline: 3px solid var(--foco, #111110); outline-offset: 3px; } .ds-paso svg { width: 18px; height: 18px; } .ds-paso output { display: grid; place-items: center; font: 400 1.625rem/1 'Bebas Neue', 'Arial Narrow', sans-serif; color: var(--ambar, #f2a007); padding-top: 2px; }"
+    },
+    {
+      "name": "Enviar pedido",
+      "kind": "button",
+      "refersTo": "button-enviar",
+      "description": "La única acción rellena de ámbar: manda el pedido por WhatsApp.",
+      "html": "<button class=\"ds-enviar\" type=\"submit\"><svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M4 20l1.4-4A8 8 0 1 1 8 18.6z\"/></svg>Enviar pedido por WhatsApp</button>",
+      "css": ".ds-enviar { width: 100%; min-height: 58px; display: flex; align-items: center; justify-content: center; gap: 10px; background: var(--ambar, #f2a007); color: var(--tablero, #111110); border: 0; border-radius: 8px; font: 700 1.125rem system-ui, sans-serif; cursor: pointer; transition: filter 0.15s, transform 0.1s; } .ds-enviar:hover { filter: brightness(1.06); } .ds-enviar:active { transform: scale(0.985); } .ds-enviar:focus-visible { outline: 3px solid var(--foco, #111110); outline-offset: 3px; } .ds-enviar svg { width: 22px; height: 22px; }"
+    },
+    {
+      "name": "Botón de borde",
+      "kind": "button",
+      "refersTo": "button-borde",
+      "description": "Acción secundaria de ancho completo sobre el cuerpo.",
+      "html": "<button class=\"ds-boton-borde\" type=\"button\">Empezar otro pedido</button>",
+      "css": ".ds-boton-borde { width: 100%; min-height: 54px; display: flex; align-items: center; justify-content: center; background: none; border: 2px solid var(--texto, #111110); border-radius: 8px; color: var(--texto, #111110); font: 600 1.0625rem system-ui, sans-serif; cursor: pointer; } .ds-boton-borde:hover { background: var(--texto, #111110); color: var(--fondo, #fafaf7); } .ds-boton-borde:focus-visible { outline: 3px solid var(--foco, #111110); outline-offset: 3px; }"
+    },
+    {
+      "name": "Campo de texto",
+      "kind": "input",
+      "refersTo": "input-campo",
+      "description": "Campo con rótulo arriba, borde de 2px y error en brasa.",
+      "html": "<div class=\"ds-campo\"><label for=\"ds-nombre\">Nombre</label><input id=\"ds-nombre\" type=\"text\" placeholder=\"Ej.: Martina\"></div>",
+      "css": ".ds-campo { display: grid; gap: 8px; } .ds-campo label { font: 600 0.75rem system-ui, sans-serif; letter-spacing: 0.18em; text-transform: uppercase; color: var(--texto-2, #5c5b55); } .ds-campo input { width: 100%; min-height: 52px; padding: 12px 14px; background: var(--fondo, #fafaf7); color: var(--texto, #111110); border: 2px solid var(--regla-fuerte, #9b9a93); border-radius: 6px; font: 400 1.0625rem system-ui, sans-serif; transition: border-color 0.15s; } .ds-campo input::placeholder { color: var(--texto-2, #5c5b55); opacity: 1; } .ds-campo input:focus-visible { outline: none; border-color: var(--texto, #111110); box-shadow: 0 0 0 1px var(--texto, #111110); } .ds-campo input[aria-invalid='true'] { border-color: var(--brasa, #b3361a); }"
+    },
+    {
+      "name": "Opción de entrega o pago",
+      "kind": "chip",
+      "refersTo": "chip-opcion",
+      "description": "Radio en grilla de dos; la elegida se rellena con punto ámbar.",
+      "html": "<div class=\"ds-elegir\"><label><input type=\"radio\" name=\"ds-pago\" checked><span class=\"ds-punto\"></span>Efectivo</label><label><input type=\"radio\" name=\"ds-pago\"><span class=\"ds-punto\"></span>Transferencia</label></div>",
+      "css": ".ds-elegir { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; } .ds-elegir label { position: relative; display: flex; align-items: center; gap: 10px; min-height: 56px; padding: 10px 14px; border: 2px solid var(--regla-fuerte, #9b9a93); border-radius: 6px; color: var(--texto, #111110); font: 600 1.0625rem system-ui, sans-serif; cursor: pointer; transition: background-color 0.15s, border-color 0.15s, color 0.15s; } .ds-elegir input { position: absolute; opacity: 0; pointer-events: none; } .ds-punto { width: 12px; height: 12px; border-radius: 50%; border: 2px solid currentColor; flex: none; } .ds-elegir label:has(input:checked) { background: var(--relleno, #111110); border-color: var(--relleno, #111110); color: var(--relleno-texto, #fafaf7); } .ds-elegir label:has(input:checked) .ds-punto { background: var(--ambar, #f2a007); border-color: var(--ambar, #f2a007); } .ds-elegir label:has(input:focus-visible) { outline: 3px solid var(--foco, #111110); outline-offset: 3px; }"
+    },
+    {
+      "name": "Barra de categorías",
+      "kind": "nav",
+      "refersTo": "nav-categoria",
+      "description": "Pestañas en Bebas Neue sobre el tablero; la activa con subrayado ámbar.",
+      "html": "<nav class=\"ds-categorias\"><a href=\"#\" aria-current=\"true\">Bondiolas</a><a href=\"#\">Hamburguesas</a><a href=\"#\">Chorizos y pollo</a></nav>",
+      "css": ".ds-categorias { display: flex; gap: 2px; padding: 0 6px; background: var(--tablero, #111110); border-bottom: 1px solid var(--tablero-regla, #363631); overflow-x: auto; } .ds-categorias a { display: block; white-space: nowrap; padding: 15px 10px 10px; font: 400 1.3125rem/1 'Bebas Neue', 'Arial Narrow', sans-serif; letter-spacing: 0.06em; text-transform: uppercase; color: var(--tablero-texto-2, #a6a59e); text-decoration: none; border-bottom: 3px solid transparent; transition: color 0.2s, border-color 0.2s; } .ds-categorias a:hover { color: var(--tablero-texto, #fafaf7); } .ds-categorias a[aria-current='true'] { color: var(--tablero-texto, #fafaf7); border-bottom-color: var(--ambar, #f2a007); } .ds-categorias a:focus-visible { outline: 3px solid var(--ambar, #f2a007); outline-offset: -3px; border-radius: 4px; }"
+    },
+    {
+      "name": "Barra del pedido",
+      "kind": "custom",
+      "refersTo": "barra-pedido",
+      "description": "Botón negro flotante con cuenta, total ámbar en casilleros y Ver pedido.",
+      "html": "<button class=\"ds-barra\" type=\"button\"><span><span class=\"ds-barra-cuenta\">Pedido · 3 productos</span><span class=\"ds-barra-total\"><span class=\"ds-celda\">$</span><span class=\"ds-celda\">U</span><span class=\"ds-celda ds-espacio\"> </span><span class=\"ds-celda\">4</span><span class=\"ds-celda\">6</span><span class=\"ds-celda\">0</span></span></span><span class=\"ds-barra-ver\">Ver pedido<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M5 12h14M13 6l6 6-6 6\"/></svg></span></button>",
+      "css": ".ds-barra { width: 100%; max-width: 39.5rem; min-height: 66px; padding: 8px 18px; display: grid; grid-template-columns: 1fr auto; align-items: center; gap: 12px; background: var(--tablero, #111110); color: var(--tablero-texto, #fafaf7); border: 0; border-radius: 10px; text-align: left; box-shadow: 0 10px 30px rgb(0 0 0 / 0.28), 0 2px 6px rgb(0 0 0 / 0.2); cursor: pointer; } .ds-barra:focus-visible { outline: 3px solid var(--ambar, #f2a007); outline-offset: 3px; } .ds-barra-cuenta { display: block; font: 400 0.75rem system-ui, sans-serif; letter-spacing: 0.18em; text-transform: uppercase; color: var(--tablero-texto-2, #a6a59e); } .ds-barra-total { display: flex; gap: 3px; margin-top: 4px; font: 400 1.75rem/1 'Bebas Neue', 'Arial Narrow', sans-serif; color: var(--ambar, #f2a007); } .ds-barra-ver { display: flex; align-items: center; gap: 8px; font: 600 1.0625rem system-ui, sans-serif; } .ds-barra-ver svg { width: 20px; height: 20px; } .ds-celda { position: relative; display: inline-block; white-space: pre; width: 0.66em; padding: 0.1em 0 0.02em; text-align: center; background: var(--tablero-alto, #1d1d1b); border-radius: 3px; } .ds-celda::after { content: ''; position: absolute; left: 0; right: 0; top: 50%; height: 1px; background: var(--tablero, #111110); } .ds-espacio { width: 0.22em; background: none; } .ds-espacio::after { display: none; }"
+    },
+    {
+      "name": "Casilleros del tablero",
+      "kind": "custom",
+      "refersTo": "celda",
+      "description": "Valor que cambia: cada carácter en su casillero con línea media; los que cambian se pliegan con 45ms de escalonado.",
+      "html": "<strong class=\"ds-valor\"><span class=\"ds-c\">A</span><span class=\"ds-c\">B</span><span class=\"ds-c ds-cae\" style=\"--i:0\">I</span><span class=\"ds-c ds-cae\" style=\"--i:1\">E</span><span class=\"ds-c ds-cae\" style=\"--i:2\">R</span><span class=\"ds-c ds-cae\" style=\"--i:3\">T</span><span class=\"ds-c ds-cae\" style=\"--i:4\">O</span></strong>",
+      "css": ".ds-valor { display: inline-flex; gap: 3px; padding: 12px; background: var(--tablero, #111110); font: 400 2rem/1 'Bebas Neue', 'Arial Narrow', sans-serif; color: var(--ambar, #f2a007); } .ds-c { position: relative; display: inline-block; width: 0.66em; padding: 0.1em 0 0.02em; text-align: center; background: var(--tablero-alto, #1d1d1b); border-radius: 3px; } .ds-c::after { content: ''; position: absolute; left: 0; right: 0; top: 50%; height: 1px; background: var(--tablero, #111110); } .ds-cae { transform-origin: 50% 50%; animation: ds-plegar 0.52s cubic-bezier(0.16, 1, 0.3, 1) both; animation-delay: calc(var(--i) * 45ms); } @keyframes ds-plegar { 0% { transform: perspective(12em) rotateX(-90deg); filter: brightness(0.4); } 55% { transform: perspective(12em) rotateX(12deg); filter: none; } 100% { transform: perspective(12em) rotateX(0deg); } } @media (prefers-reduced-motion: reduce) { .ds-cae { animation: none; } }"
+    }
+  ],
+  "narrative": {
+    "northStar": "El tablero de la terminal",
+    "overview": "La carta es el tablero de salidas del puesto sobre la ruta. Un marco negro mate (cabecera, barra de categorías, sección del local, barra del pedido, cabeza de la hoja) encierra un cuerpo de lectura blanco tiza donde el menú se lee en filas y columnas fijas: producto, precio en pesos, control. Las letras grandes son condensadas y en mayúsculas, como el cartel del local; todo lo demás usa la fuente del sistema, para que la página pese poco con datos móviles.\n\nEl color funciona como en un tablero: casi todo es negro y blanco, y la luz aparece solo donde hay información viva. El ámbar de lámpara marca lo abierto, lo elegido y el pedido; el rojo brasa marca lo cerrado, lo agotado y los errores. Los valores que cambian (estado, total) viven en casilleros con una línea al medio y caen en su lugar con un pliegue, sin mover la fila.\n\nDensidad de lista, no de catálogo: filas altas (74px mínimo), reglas de 1px, controles de 48px pensados para una mano y para el sol o la noche. Se rechazan las tarjetas con foto de una carta de delivery y la estética de brasas y madera.",
+    "keyCharacteristics": [
+      "Marco negro de tablero alrededor de un cuerpo tiza (o grafito en modo oscuro); el tablero es igual en ambos modos.",
+      "Filas de tres columnas fijas con reglas de 1px; los productos nunca van en tarjetas.",
+      "Bebas Neue solo para voz de cartel; fuente del sistema para todo lo que se lee.",
+      "Ámbar y brasa como luces de estado, nunca como decoración.",
+      "Casilleros con línea media y pliegue escalonado para los valores que cambian."
+    ],
+    "rules": [
+      { "name": "The Lámpara Rule", "body": "El ámbar significa \"abierto, elegido o en el pedido\". Si un elemento nuevo no es ninguna de esas tres cosas, no lleva ámbar.", "section": "colors" },
+      { "name": "The Tablero Fijo Rule", "body": "El marco negro no cambia con el modo de color; solo el cuerpo cambia de tiza a grafito.", "section": "colors" },
+      { "name": "The Brasa por Superficie Rule", "body": "Sobre negro o grafito, la brasa clara; sobre tiza, la brasa oscura. Nunca la clara sobre tiza.", "section": "colors" },
+      { "name": "The Voz de Cartel Rule", "body": "Bebas Neue va en nombres, estados, categorías, días y totales; nunca en párrafos, botones de acción ni etiquetas de campo.", "section": "typography" },
+      { "name": "The Rótulo Rule", "body": "La etiqueta chica en mayúsculas espaciadas nombra un dato, una columna o un campo que está al lado o debajo. No se pone encima de un titular como antesala.", "section": "typography" },
+      { "name": "The Solo Flota Rule", "body": "Una sombra significa que la capa flota sobre la página (barra, hoja). Filas, botones y campos no llevan sombra.", "section": "elevation" }
+    ],
+    "dos": [
+      "**Do** poner los productos en filas de tres columnas fijas con reglas de 1px, precio alineado a la derecha en números tabulares.",
+      "**Do** mantener todo control tocable en 48px o más.",
+      "**Do** expresar el estado de un producto solo con el vocabulario existente: borde (disponible), relleno con cantidad ámbar (en el pedido), tachado y \"Agotado\" en brasa (agotado).",
+      "**Do** mostrar cualquier valor nuevo que cambie en vivo con los casilleros y el pliegue, y desactivar el pliegue con movimiento reducido.",
+      "**Do** usar anillos de foco de 3px: ámbar sobre el tablero, tinta sobre el cuerpo claro.",
+      "**Do** escribir la interfaz en infinitivo o impersonal, sin tú ni vos."
+    ],
+    "donts": [
+      "**Don't** poner productos en tarjetas con foto ni en grillas de catálogo.",
+      "**Don't** usar ámbar para decorar o destacar algo que no esté abierto, elegido o en el pedido.",
+      "**Don't** usar la brasa clara sobre el cuerpo tiza.",
+      "**Don't** usar Bebas Neue en párrafos, botones o campos, ni sumar otra fuente propia.",
+      "**Don't** agregar sombras a filas, botones o campos.",
+      "**Don't** usar texturas de brasas, madera o fuego."
+    ]
+  }
+}
